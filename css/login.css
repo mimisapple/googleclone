@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Roboto:wght@100&display=swap');
+
+
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+/*Main Styling*/
+
+.main{
+    width: 450px;
+    border: 1px solid #ccc;
+    margin-top: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    height: 502px;
+    padding: 40px;
+}
+
+
+.main__logo{
+    height: 24px;
+    width: 75px;
+    margin: auto;
+    display: block;
+}
+
+
+
+.main__title{
+    color: #202124;
+    padding-bottom: 0;
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.33;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.main__account, .main__diff-account{
+    padding: 12px 10px;
+    overflow: auto;
+    border-bottom: 1px solid #ccc;
+
+}
+
+
+
+.main__account, .main__diff-account:hover{
+    background-color: #e8f0fe;
+    cursor: pointer;
+
+}
+
+
+
+
+.main__account--avatar{
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    background-color: #00897b;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+
+.main__account--email{
+    float: left;
+
+}
+
+
+.main__account--email h2{
+    font-size: 14px;
+    color: #5c545a;
+}
+
+
+.main__account--email p{
+    font-size: 12px;
+    color:#5c545a;
+}
+
+.main__account--signout{
+    float: right;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+.main__diff-account--img{
+    float: left;
+    margin-right: 26px;
+    font-size: 26px;
+    color: #9e9b9b[;
+    ]
+
+}
+
+
+.main__diff-account p{
+    margin-top: 5px;
+    color: #5c545a;
+    font-weight: bold;
+}
+
+
+
+/*Footer*/
+
+.footer{
+    width: 450px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+.footer__left{
+    float: left;
+}
+
+
+
+.footer__right{
+    float: right;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0.5rem;
+    opacity: 0.8;
+}
+
+
+
+#footer__left--select{
+    height: 30px;
+    border: none;
+    outline: none;
+
+}
+
+
